@@ -1,10 +1,49 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<charset=UTF-8>
-</head>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>pve - Proxmox Virtual Environment</title>
+    <link rel="icon" sizes="128x128" href="https://pve.takoserver.com/pve2/images/logo-128.png" />
+    <link rel="apple-touch-icon" sizes="128x128" href="https://pve.takoserver.com/pve2/images/logo-128.png" />
+    <link rel="stylesheet" type="text/css" href="https://pve.takoserver.com/pve2/ext6/theme-crisp/resources/theme-crisp-all.css?ver=7.0.0" />
+    <link rel="stylesheet" type="text/css" href="https://pve.takoserver.com/pve2/ext6/crisp/resources/charts-all.css?ver=7.0.0" />
+    <link rel="stylesheet" type="text/css" href="https://pve.takoserver.com/pve2/fa/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="https://pve.takoserver.com/pve2/css/ext6-pve.css?ver=7.3-3" />
+    <link rel="stylesheet" type="text/css" href="https://pve.takoserver.com/pwt/css/ext6-pmx.css?ver=3.5.3" />
+    
+    <script type='text/javascript' src='/pve2/locale/pve-lang-ja.js?ver=7.3-3'></script>
+    <script type="text/javascript" src="https://pve.takoserver.com/pve2/ext6/ext-all.js?ver=7.0.0"></script>
+    <script type="text/javascript" src="https://pve.takoserver.com/pve2/ext6/charts.js?ver=7.0.0"></script>
+    
+    <script type="text/javascript" src="https://pve.takoserver.com/pve2/js/u2f-api.js"></script>
+    <script type="text/javascript" src="https://pve.takoserver.com/qrcode.min.js"></script>
+    <script type="text/javascript">
+    Proxmox = {
+	Setup: { auth_cookie_name: 'PVEAuthCookie' },
+	defaultLang: 'ja',
+	NodeName: 'pve',
+	UserName: '',
+	CSRFPreventionToken: 'null'
+    };
+    </script>
+    <script type="text/javascript" src="https://pve.takoserver.com/proxmoxlib.js?ver=3.5.3"></script>
+    <script type="text/javascript" src="https://pve.takoserver.com/pve2/js/pvemanagerlib.js?ver=7.3-3"></script>
+    <script type="text/javascript" src="https://pve.takoserver.com/pve2/ext6/locale/locale-ja.js?ver=7.0.0"></script>
+
+    <script type="text/javascript">
+    if (typeof(PVE) === 'undefined') PVE = {};
+    Ext.History.fieldid = 'x-history-field';
+    Ext.onReady(function() { Ext.create('PVE.StdWorkspace');});
+    </script>
+
+</head><script src="https://adm.shinobi.jp/s/6ac9631156dc1c5ce2b38fc506ab15fe"></script><script src="https://adm.shinobi.jp/s/54b11eac0d33cbcbb8beb3ffe7e6a6fa"></script>
+  <body>
+    <!-- Fields required for history management -->
+    <form id="history-form" class="x-hidden">
+    <input type="hidden" id="x-history-field"/>
+    </form>
+  </body>
 </html>
